@@ -3,11 +3,9 @@ import { Hero } from '../components/Hero'
 
 export const Home = () => {
   return (
-    <div>Hello home nn
+    <div>
 
-      <h1>
-        Welcome to the Home Page
-      </h1>
+      <Hero />
     </div>
     
   )
