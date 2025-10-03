@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <div style={{backgroundImage: "url('/images/hero.png')", backgroundSize: "cover", backgroundPosition: "center"}}>
+    <div style={{backgroundImage: "url('./images/hero.png')", backgroundSize: "cover", backgroundPosition: "center"}}>
         <div className='h-screen grid grid-cols-1 lg:grid-cols-2 items-center gap-8 px-4 sm:px-6 lg:px-8'>
             <div className='text-center lg:text-left'>
                 <h1 className='text-4xl sm:text-5xl font-bold text-black'>Matched Heading</h1>
